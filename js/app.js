@@ -399,8 +399,14 @@ $(function() {
 const themeBtn = document.querySelector('.color-switcher');
 
 function getCurrentTheme(){
-  let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  localStorage.getItem('template.theme') ? theme = localStorage.getItem('template.theme') : null;
+  let theme = 'dark'; // Default to dark mode
+  if (localStorage.getItem('template.theme')) {
+    theme = localStorage.getItem('template.theme');
+  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark';
+  } else {
+    theme = 'dark'; // Always default to dark
+  }
   return theme;
 }
 

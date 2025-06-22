@@ -83,10 +83,8 @@
 
     <!-- Header Controls Start -->
     <div class="header__controls d-flex justify-content-end">
-      <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch"
-        aria-label="light/dark mode" aria-checked="true"></button>
       <a id="notify-trigger" class="header__trigger btn"
-        href="mailto:example@example.com?subject=Message%20from%20your%20site">
+        href="#contact">
         <span class="trigger__caption">Let's Talk</span>
         <i class="ph-bold ph-chat-dots"></i>
       </a>
@@ -129,7 +127,7 @@
         <div class="avatar__socials">
           <ul class="socials-square d-flex justify-content-between">
             <li class="socials-square__item">
-              <a class="socials-square__link btn" href="https://github.com/p-navya/portfolio.git" target="_blank"><i class="ph-bold ph-github-logo"></i></a>
+              <a class="socials-square__link btn" href="https://github.com/p-navya/" target="_blank"><i class="ph-bold ph-github-logo"></i></a>
             </li>
             <li class="socials-square__item">
               <a class="socials-square__link btn" href="https://www.linkedin.com/in/p-navyaa/" target="_blank"><i class="ph-bold ph-linkedin-logo"></i></a>
@@ -167,7 +165,7 @@
           <h1 class="headline__title animate-headline">I'm Navya<br>Engineer in AI & ML, turning data into decisions.</h1>
           <div class="headline__btnholder d-flex flex-column flex-sm-row">
             <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
-              href="#about">
+              href="#my-projects">
               <span class="btn-caption">My Works</span>
               <i class="ph-bold ph-squares-four"></i>
             </a>
@@ -181,7 +179,7 @@
 
         <!-- Scroll Button Start -->
         <div class="rotating-btn">
-          <a href="#portfolio" class="rotating-btn__link slide-down">
+          <a href="#about" class="rotating-btn__link slide-down">
             <!-- SVG rotating text -->
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
               y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve"
@@ -227,12 +225,7 @@
         <div class="content__block grid-block">
           <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
             <!-- achievements single item -->
-            <div class="achievements__item d-flex flex-column grid-item animate-card-3">
-              <div class="achievements__card">
-                <p class="achievements__number">10+</p>
-                <p class="achievements__descr">Happy clients</p>
-              </div>
-            </div>
+            
             <!-- achievements single item -->
             <div class="achievements__item d-flex flex-column grid-item animate-card-3">
               <div class="achievements__card">
@@ -259,25 +252,36 @@
                 <p class="about-descr__text animate-in-up">
                   A results-driven B.Tech undergraduate specializing in Artificial Intelligence and Machine Learning (AIML), with 8 months of hands-on experience as an AIML Engineer Intern. Proficient in full-stack development with a strong command of Python, and a proven ability to build dynamic, scalable web applications by effectively integrating frontend creativity with backend logic.
                 </p>
-                <p class="about-descr__text animate-in-up"><b>Technical Proficiencies</b></p>
-                <ul class="about-descr__text animate-in-up">
-                  <li><b>Languages & Frameworks:</b> Python, React, Node.js, Flask</li>
-                  <li><b>Databases:</b> MySQL</li>
-                  <li><b>Styling & UI:</b> Tailwind CSS</li>
-                  <li><b>Development Skills:</b> API Design, Database Management, Responsive UI Design</li>
-                </ul>
-                <p class="about-descr__text animate-in-up"><b>Professional Attributes</b></p>
-                <ul class="about-descr__text animate-in-up">
-                  <li>Strong communication and collaboration abilities</li>
-                  <li>Analytical thinker with a focus on problem-solving</li>
-                  <li>Committed to writing clean, efficient code and embracing continuous learning</li>
-                  <li>Eager to contribute to innovative projects, work in collaborative environments, and build impactful technology solutions.</li>
-                </ul>
-                <div class="btn-group about-descr__btnholder animate-in-up">
-                  <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile" href="https://drive.google.com/uc?export=download&id=13JhesS5n4HiW_6WDBGzMFFginL7VfDG6" target="_blank">
-                    <span class="btn-caption">Download CV</span>
-                    <i class="ph-bold ph-download-simple"></i>
-                  </a>
+                <!-- Technical Proficiencies Section -->
+                <div class="about-section-block animate-in-up" style="margin-bottom: 1.5em;">
+                  <h5 style="display: flex; align-items: center; gap: 0.5em; font-weight: 700;">
+                    <i class="ph-bold ph-cpu"></i> Technical Proficiencies
+                  </h5>
+                  <div class="tech-badges" style="display: flex; flex-wrap: wrap; gap: 0.5em; margin-top: 0.5em;">
+                    <span class="badge badge-outline">Python</span>
+                    <span class="badge badge-outline">React</span>
+                    <span class="badge badge-outline">Node.js</span>
+                    <span class="badge badge-outline">Artificial Intelligence</span>
+                    <span class="badge badge-outline">Machine Learning</span>
+                    <span class="badge badge-outline">Flask</span>
+                    <span class="badge badge-outline">MySQL</span>
+                    <span class="badge badge-outline">Tailwind CSS</span>
+                    <span class="badge badge-outline">Figma</span>
+                    <span class="badge badge-outline">Firebase</span>
+                    <span class="badge badge-outline">Responsive UI Design</span>
+                  </div>
+                </div>
+                <!-- Professional Attributes Section -->
+                <div class="about-section-block animate-in-up">
+                  <h5 style="display: flex; align-items: center; gap: 0.5em; font-weight: 700;">
+                    <i class="ph-bold ph-user"></i> Professional Attributes
+                  </h5>
+                  <ul class="attributes-list" style="margin-top: 0.5em; padding-left: 1.2em; list-style-type: disc;">
+                    <li>Strong communication and collaboration abilities</li>
+                    <li>Analytical thinker with a focus on problem-solving</li>
+                    <li>Committed to writing clean, efficient code and embracing continuous learning</li>
+                    <li>Eager to contribute to innovative projects, work in collaborative environments, and build impactful technology solutions.</li>
+                  </ul>
                 </div>
               </div>
               <!-- About Me Description End -->
@@ -292,8 +296,7 @@
                 </div>
                 <div class="about-info__item animate-in-up">
                   <h6>
-                    <small class="top">Phone</small>
-                    <a class="text-link-bold" href="tel:+12127089400">+91 9849327843</a>
+                    
                   </h6>
                 </div>
                 <div class="about-info__item animate-in-up">
@@ -318,6 +321,20 @@
           </div>
         </div>
         <!-- Content Block - About Me Data End -->
+
+        <!-- Content Block - My Projects Section Title Start -->
+        <div id="my-projects" class="content__block section-grid-title">
+          <p class="h2__subtitle animate-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" fill="currentColor">
+              <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+            </svg>
+            <span>My Projects</span>
+          </p>
+          <h2 class="h2__title animate-in-up">A selection of my featured work</h2>
+        </div>
+        <!-- Content Block - My Projects Section Title End -->
 
         <!-- Content Block - Services Start -->
         <div class="content__block grid-block">
@@ -404,7 +421,7 @@
                     <p class="small cards__text animate-in-up">A platform that predicts student placements based on academic and experience data, using random forest algorithms and a Flask backend for accurate online predictions.</p>
                   </div>
                   <div class="cards__image d-flex animate-in-up">
-                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="ProspectCraf">
+                    <img src="https://www.watermarkinsights.com/wp-content/uploads/2024/12/01-How-to-measure-and-improve-student-experience.jpg" alt="ProspectCraf">
                   </div>
                 </div>
               </div>
@@ -468,6 +485,12 @@
           <p class="h2__text animate-in-up">
             A results-driven B.Tech undergraduate specializing in Artificial Intelligence and Machine Learning (AIML), with 8 months of professional experience as an AIML Engineer Intern. Possesses a strong foundation in full-stack development and Python-based technologies, with hands-on experience in developing scalable web applications, managing databases, and designing responsive user interfaces. Demonstrates proficiency in machine learning concepts, data preprocessing, and model deployment. Known for strong problem-solving skills, a collaborative mindset, and a commitment to continuous learning and innovation in technology.
           </p>
+           <div class="btn-group about-descr__btnholder animate-in-up" style="margin-bottom: 2em;">
+          <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile" href="https://drive.google.com/uc?export=download&id=13JhesS5n4HiW_6WDBGzMFFginL7VfDG6" target="_blank">
+            <span class="btn-caption">Download CV</span>
+            <i class="ph-bold ph-download-simple"></i>
+          </a>
+        </div>
         </div>
         <!-- Content Block - H2 Section Title End -->
 
@@ -603,13 +626,17 @@
           <div class="certifications-box animate-in-up">
             <ul class="certifications-list-box">
               <li><span class="cert-icon">🏆</span><b>AWS Certified Cloud Practitioner</b> – Amazon Web Services</li>
-              <li><span class="cert-icon">🏆</span><b>Salesforce Certified Administrator</b> – Salesforce</li>
-              <li><span class="cert-icon">🏆</span><b>Winner, University Hackathon 2023</b> – 1st Place, AI/ML Track</li>
-              <li><span class="cert-icon">🏆</span><b>Coursera: Deep Learning Specialization</b> – Andrew Ng</li>
+              <li><span class="cert-icon">🏆</span>  Salesforce</li>
+              
+              <li><span class="cert-icon">🏆</span><b>Coursera: </b> – Deep Learning</li>
+              <li><span class="cert-icon">🏆</span><a href="https://www.coursera.org/account/accomplishments/verify/7T476DATZ2ZG" target="_blank"><b>Coursera</b></a> :- AI For Everyone</li>
             </ul>
           </div>
         </div>
         <!-- Content Block - Certifications & Achievements End -->
+
+        <!-- Download CV Button Start -->
+       
 
       </section>
       <!-- Resume Section End -->
@@ -666,7 +693,7 @@
                     <input type="tel" name="Phone" placeholder="Phone Number*" required>
                   </div>
                   <div class="col-12 form__item animate-in-up">
-                    <textarea name="Message" placeholder="A Few Words*" required></textarea>
+                    <textarea name="Message" placeholder="Description*" required></textarea>
                   </div>
                   <div class="col-12 form__item animate-in-up">
                     <button class="btn btn-default btn-hover btn-hover-accent" type="submit">
@@ -690,7 +717,7 @@
             <div class="socials-cards__item d-flex grid-item-s animate-card-5">
               <div class="socials-cards__card">
                 <i class="ph-bold ph-github-logo"></i>
-                <a class="socials-cards__link" href="https://github.com/p-navya/portfolio.git" target="_blank"></a>
+                <a class="socials-cards__link" href="https://github.com/p-navya/" target="_blank"></a>
               </div>
             </div>
             <!-- socials item: LinkedIn -->
@@ -709,7 +736,7 @@
           <div class="teaser">
             <p class="teaser__text animate-in-up">Want to know more about me, tell me
               about your project or just to say hello?
-              <a class="text-link-bold" href="mailto:example@example.com?subject=Message%20from%20your%20site">Drop me a
+              <a class="text-link-bold" href="mailto:navyadhritii@gmail.com?subject=Message%20from%20your%20site">Drop me a
                 line</a>
               and I'll get back
               as soon as possible.
@@ -732,10 +759,8 @@
               </div>
               <!-- data item -->
               <div class="col-12 col-md-4 contact-lines__data">
-                <p class="contact-lines__title animate-in-up">Phone</p>
-                <p class="contact-lines__text animate-in-up">
-                  <a class="text-link-bold" href="tel:+12127089400">+91 9849327843</a>
-                </p>
+               
+                  
               </div>
               <!-- data item -->
               <div class="col-12 col-md-4 contact-lines__data">
