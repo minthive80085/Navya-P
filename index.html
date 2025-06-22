@@ -83,6 +83,9 @@
 
     <!-- Header Controls Start -->
     <div class="header__controls d-flex justify-content-end">
+      <button class="header__switcher color-switcher btn" aria-label="Toggle color scheme">
+        <em></em><i class="ph-bold ph-sun"></i>
+      </button>
       <a id="notify-trigger" class="header__trigger btn"
         href="#contact">
         <span class="trigger__caption">Let's Talk</span>
@@ -104,30 +107,28 @@
 
   <!-- Avatar Side Block Start -->
   <div id="avatar" class="avatar">
-    <div class="avatar__container d-flex flex-column justify-content-lg-between">
-      <!-- image and logo -->
-      <div class="avatar__block">
-        <div class="avatar__logo d-flex align-items-center">
+    <div class="avatar__container d-flex flex-column justify-content-lg-between" style="background: var(--base-tint); border-radius: var(--_radius-xl); box-shadow: 0 4px 32px 0 rgba(0,0,0,0.10); border: 2.5px solid var(--accent); padding: 3rem 2rem; margin-top: 2rem;">
+      <!-- name and logo (logo already removed) -->
+      <div class="avatar__block" style="margin-bottom: 2.5rem; text-align:center;">
+        <div class="avatar__logo d-flex align-items-center" style="margin-bottom:1.2rem; justify-content:center;">
           <div class="logo__caption">
-            <p>NAVYA<br>Pachigolla</p>
+            <p style="font-size:2.6rem; font-weight:700; color:var(--t-bright); letter-spacing:0.01em; margin:0;">NAVYA<br>Pachigolla</p>
           </div>
         </div>
-        <div class="avatar__image">
-          <img src="img/avatars/1024x1024_a02.webp" alt="Braxton - Personal Portfolio & Resume HTML Template Avatar">
+        <div class="avatar__image" style="display:flex; justify-content:center;">
+          <img src="img/backgrounds/WhatsApp Image 2025-06-22 at 22.56.49_9f261f9d.jpg" alt="Navya Pachigolla Avatar" style="max-width:400px; max-height:400px; object-fit:cover; border-radius:24px; box-shadow:0 2px 16px rgba(0,0,0,0.12); background:var(--base); padding:0.5rem; transform:scale(1.15);">
         </div>
       </div>
-      <!-- data caption #1 -->
-      <div class="avatar__block">
-        <h6 style="text-align:center;">
-          AI&ML Engineer<br>Hyderabad,India
-        </h6>
-      </div>
+     
       <!-- socials and CTA button -->
       <div class="avatar__block">
-        <div class="avatar__socials">
-          <ul class="socials-square d-flex justify-content-between">
+        <div class="avatar__socials" style="margin-bottom:1.5rem;">
+          <ul class="socials-square d-flex justify-content-between align-items-center" style="gap: 0.5rem;">
             <li class="socials-square__item">
               <a class="socials-square__link btn" href="https://github.com/p-navya/" target="_blank"><i class="ph-bold ph-github-logo"></i></a>
+            </li>
+            <li class="socials-square__item" style="pointer-events:none; background:none; box-shadow:none;">
+              <span style="display:block; font-size:1.1rem; font-weight:600; color:var(--t-medium); text-align:center; line-height:1.2; background:none; border:none;">AI&ML Engineer<br>Hyderabad, India</span>
             </li>
             <li class="socials-square__item">
               <a class="socials-square__link btn" href="https://www.linkedin.com/in/p-navyaa/" target="_blank"><i class="ph-bold ph-linkedin-logo"></i></a>
@@ -250,7 +251,7 @@
               <!-- About Me Description Start -->
               <div class="col-12 col-xl-8 grid-item about-descr">
                 <p class="about-descr__text animate-in-up">
-                  A results-driven B.Tech undergraduate specializing in Artificial Intelligence and Machine Learning (AIML), with 8 months of hands-on experience as an AIML Engineer Intern. Proficient in full-stack development with a strong command of Python, and a proven ability to build dynamic, scalable web applications by effectively integrating frontend creativity with backend logic.
+                  Driven and detail-oriented final year B.Tech student specializing in Artificial Intelligence and Machine Learning,with a strong command of Python and hands-on internship experience in real-world automation projects. Strong foundation in full-stack development and AI tools, with a passion for building impactful, intelligent systems. Adept at problem-solving, collaborating in fast-paced environments, and committed to continuous learning from industry practices.Eager to contribute meaningfully to innovative projects and deepen expertise in applied Artificial Intelligence, machine learning, and software engineering through industry-driven opportunities.
                 </p>
                 <!-- Technical Proficiencies Section -->
                 <div class="about-section-block animate-in-up" style="margin-bottom: 1.5em;">
@@ -261,14 +262,18 @@
                     <span class="badge badge-outline">Python</span>
                     <span class="badge badge-outline">React</span>
                     <span class="badge badge-outline">Node.js</span>
+                    <span class="badge badge-outline">JavaScript</span
                     <span class="badge badge-outline">Artificial Intelligence</span>
                     <span class="badge badge-outline">Machine Learning</span>
+                    <span class="badge badge-outline">NLP</span>
+                    <span class="badge badge-outline">Latex</span>
                     <span class="badge badge-outline">Flask</span>
                     <span class="badge badge-outline">MySQL</span>
                     <span class="badge badge-outline">Tailwind CSS</span>
-                    <span class="badge badge-outline">Figma</span>
-                    <span class="badge badge-outline">Firebase</span>
+                    <span class="badge badge-outline">Figma/Canva</span>
+                    <span class="badge badge-outline">MongoDB</span>
                     <span class="badge badge-outline">Responsive UI Design</span>
+                     <span class="badge badge-outline">Git</span>
                   </div>
                 </div>
                 <!-- Professional Attributes Section -->
@@ -374,6 +379,40 @@
                   </div>
                 </div>
               </div>
+              <!-- Project 7: Rasoi Reveal -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">Rasoi Reveal</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">NLP</span>
+                      <span class="rounded-tag tag-outline">Python</span>
+                      <span class="rounded-tag tag-outline">Recipe Analysis</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">An AI system to extract ingredients and quantities from recipes, streamlining ingredient extraction and enabling seamless integration into meal planning tools.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://github.com/p-navya/RasoiReveal/blob/main/Background.jpeg?raw=true" alt="Rasoi Reveal">
+                  </div>
+                </div>
+              </div>
+              <!-- Project 6: Mental Health Conversational AI -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">Mental Health Conversational AI</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">AI</span>
+                      <span class="rounded-tag tag-outline">Chatbot</span>
+                      <span class="rounded-tag tag-outline">NLP</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">A chatbot providing a supportive space for users to express emotions, using GPT-2, Vader Sentiment, and Tkinter to enhance engagement and emotional understanding.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://www.verloop.io/wp-content/uploads/Making-Mental-Health-Care-Accessible_-The-Role-of-Conversational-AI-Solutions-in-a-New-Era.png" alt="Mental Health Conversational AI">
+                  </div>
+                </div>
+              </div>
               <!-- Project 3: Notifo -->
               <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
                 <div class="cards__card d-flex flex-column">
@@ -422,40 +461,6 @@
                   </div>
                   <div class="cards__image d-flex animate-in-up">
                     <img src="https://www.watermarkinsights.com/wp-content/uploads/2024/12/01-How-to-measure-and-improve-student-experience.jpg" alt="ProspectCraf">
-                  </div>
-                </div>
-              </div>
-              <!-- Project 6: Mental Health Conversational AI -->
-              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
-                <div class="cards__card d-flex flex-column">
-                  <div class="cards__descr">
-                    <h4 class="cards__title animate-in-up">Mental Health Conversational AI</h4>
-                    <div class="cards__tags d-flex flex-wrap animate-in-up">
-                      <span class="rounded-tag tag-outline">AI</span>
-                      <span class="rounded-tag tag-outline">Chatbot</span>
-                      <span class="rounded-tag tag-outline">NLP</span>
-                    </div>
-                    <p class="small cards__text animate-in-up">A chatbot providing a supportive space for users to express emotions, using GPT-2, Vader Sentiment, and Tkinter to enhance engagement and emotional understanding.</p>
-                  </div>
-                  <div class="cards__image d-flex animate-in-up">
-                    <img src="https://www.verloop.io/wp-content/uploads/Making-Mental-Health-Care-Accessible_-The-Role-of-Conversational-AI-Solutions-in-a-New-Era.png" alt="Mental Health Conversational AI">
-                  </div>
-                </div>
-              </div>
-              <!-- Project 7: Rasoi Reveal -->
-              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
-                <div class="cards__card d-flex flex-column">
-                  <div class="cards__descr">
-                    <h4 class="cards__title animate-in-up">Rasoi Reveal</h4>
-                    <div class="cards__tags d-flex flex-wrap animate-in-up">
-                      <span class="rounded-tag tag-outline">NLP</span>
-                      <span class="rounded-tag tag-outline">Python</span>
-                      <span class="rounded-tag tag-outline">Recipe Analysis</span>
-                    </div>
-                    <p class="small cards__text animate-in-up">An AI system to extract ingredients and quantities from recipes, streamlining ingredient extraction and enabling seamless integration into meal planning tools.</p>
-                  </div>
-                  <div class="cards__image d-flex animate-in-up">
-                    <img src="https://github.com/p-navya/RasoiReveal/blob/main/Background.jpeg?raw=true" alt="Rasoi Reveal">
                   </div>
                 </div>
               </div>

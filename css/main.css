@@ -105,6 +105,30 @@
   --t-per-bright-dark: #27293b;
   --t-per-medium-dark: #626577;
   --t-per-muted-dark: #717586;
+  /* light color scheme */
+  --base--light: #ffffff;
+  --base-tint--light: #f0f0f0;
+  --base-shade--light: #e0e0e0;
+  --accent--light: #E4B8BF;
+  --secondary--light: #CEC4EF;
+  --secondary-rgba--light: rgba(206,196,239,0.2);
+  --stroke-controls--light: #4B4B51;
+  --stroke-controls-neutral--light: rgba(255,255,255,0.3);
+  --stroke-elements--light: #303033;
+  --t-bright--light: #e9e9f1;
+  --t-medium--light: #C7C6D3;
+  --t-muted--light: #A1A1AF;
+  --t-accent--light: #E1BAC5;
+  --t-secondary--light: #CEC4EF;
+  --t-disabled--light: #8B8A91;
+  --t-placeholder--light: #58585E;
+  --base-opp--light: #fafafa;
+  --t-opp-bright--light: #121319;
+  --t-opp-medium--light: #626577;
+  --t-opp-muted--light: #717586;
+  --gradient-one--light: #a287d5;
+  --gradient-two--light: #E4B8BF;
+  --gradient-three--light: #8b6bc5;
 }
 @media only screen and (min-width: 1600px) {
   :root {
@@ -164,6 +188,32 @@
   --gradient-one: var(--gradient-one--dark);
   --gradient-two: var(--gradient-two--dark);
   --gradient-three: var(--gradient-three--dark);
+}
+
+[color-scheme=light] {
+  --base: #e6ebf4;
+  --base-tint: #ebf0f7;
+  --base-shade: #bdc1c8;
+  --accent: #aa70e0;
+  --secondary: #7059e2;
+  --secondary-rgba: rgba(112,89,226,0.3);
+  --stroke-controls: #a8b0c1;
+  --stroke-controls-neutral: rgba(0,0,0,0.3);
+  --stroke-elements: #d1d5e0;
+  --t-bright: #22232c;
+  --t-medium: #424550;
+  --t-muted: #666a79;
+  --t-accent: #8f56cc;
+  --t-secondary: #5d4ec4;
+  --t-disabled: #717586;
+  --t-placeholder: #969bb2;
+  --base-opp: #111111;
+  --t-opp-bright: #ebf0f7;
+  --t-opp-medium: #C7C6D3;
+  --t-opp-muted: #A1A1AF;
+  --gradient-one: #CEC4EF;
+  --gradient-two: #f5c5cd;
+  --gradient-three: #ac8fe3;
 }
 
 /* ------------------------------------------------*/
