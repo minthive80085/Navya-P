@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Page Title -->
+  <title>Portfolio - Navya</title>
+
+
+  <!-- Viewport Meta-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+  <!-- Template Styles Start -->
+  <link rel="stylesheet" href="css/loaders/loader.css">
+  <link rel="stylesheet" type="text/css" href="css/plugins.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Template Styles End -->
+
+  <!-- Custom Browser Color Start -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+  <meta name="msapplication-navbutton-color" content="#111111">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Custom Browser Color End -->
+</head>
+
+<body>
+
+  <!-- Loader Start -->
+  <div id="loader" class="loader">
+    <div id="loaderContent" class="loader__content">
+      <div class="loader__shadow"></div>
+      <div class="loader__box"></div>
+    </div>
+  </div>
+  <!-- Loader End -->
+
+  <!-- Header Start -->
+  <header id="header" class="header d-flex justify-content-between">
+
+    <!-- Navigation Menu Start -->
+    <div class="header__navigation">
+      <nav id="menu" class="menu">
+        <ul class="menu__list d-flex justify-content-start">
+          <li class="menu__item">
+            <a class="menu__link btn" href="#home">
+              <span class="menu__caption">Home</span>
+              <i class="ph-bold ph-house-simple"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#portfolio">
+              <span class="menu__caption">Portfolio</span>
+              <i class="ph-bold ph-squares-four"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#about">
+              <span class="menu__caption">About Me</span>
+              <i class="ph-bold ph-user"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#resume">
+              <span class="menu__caption">Resume</span>
+              <i class="ph-bold ph-article"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#contact">
+              <span class="menu__caption">Contact</span>
+              <i class="ph-bold ph-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Navigation Menu End -->
+
+    <!-- Header Controls Start -->
+    <div class="header__controls d-flex justify-content-end">
+      <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch"
+        aria-label="light/dark mode" aria-checked="true"></button>
+      <a id="notify-trigger" class="header__trigger btn"
+        href="mailto:example@example.com?subject=Message%20from%20your%20site">
+        <span class="trigger__caption">Let's Talk</span>
+        <i class="ph-bold ph-chat-dots"></i>
+      </a>
+    </div>
+    <!-- Header Controls End -->
+
+  </header>
+  <!-- Header End -->
+
+  <!-- Gradient Background Start -->
+  <!-- <div class="gradient-background">
+    <div class="blur"></div>
+    <div class="blur"></div>
+    <div class="blur"></div>
+  </div> -->
+  <!-- Gradient Background End -->
+
+  <!-- Avatar Side Block Start -->
+  <div id="avatar" class="avatar">
+    <div class="avatar__container d-flex flex-column justify-content-lg-between">
+      <!-- image and logo -->
+      <div class="avatar__block">
+        <div class="avatar__logo d-flex align-items-center">
+          <div class="logo__caption">
+            <p>NAVYA<br>Pachigolla</p>
+          </div>
+        </div>
+        <div class="avatar__image">
+          <img src="img/avatars/1024x1024_a02.webp" alt="Braxton - Personal Portfolio & Resume HTML Template Avatar">
+        </div>
+      </div>
+      <!-- data caption #1 -->
+      <div class="avatar__block">
+        <h6 style="text-align:center;">
+          AI&ML Engineer<br>Hyderabad, India
+        </h6>
+      </div>
+      <!-- socials and CTA button -->
+      <div class="avatar__block">
+        <div class="avatar__socials">
+          <ul class="socials-square d-flex justify-content-between">
+            <li class="socials-square__item">
+              <a class="socials-square__link btn" href="https://github.com/p-navya/portfolio.git" target="_blank"><i class="ph-bold ph-github-logo"></i></a>
+            </li>
+            <li class="socials-square__item">
+              <a class="socials-square__link btn" href="https://www.linkedin.com/in/p-navyaa/" target="_blank"><i class="ph-bold ph-linkedin-logo"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="avatar__btnholder">
+          <a class="btn btn-default btn-fullwidth btn-hover btn-hover-accent" href="#contact" target="_blank">
+            <span class="btn-caption">Let's Work Together!</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Avatar Side Block End -->
+
+  <!-- Page Content Start -->
+  <div id="content" class="content">
+    <div class="content__wrapper">
+
+      <!-- Intro Section Start -->
+      <section id="home" class="main intro">
+
+        <!-- Headline Start -->
+        <div id="headline" class="headline d-flex align-items-start flex-column" data-speed="1">
+          <p class="headline__subtitle animate-headline">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+              fill="currentColor">
+              <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+            </svg>
+            <span>Let's meet!</span>
+          </p>
+          <h1 class="headline__title animate-headline">I'm Navya<br>Engineer in AI & ML, turning data into decisions.</h1>
+          <div class="headline__btnholder d-flex flex-column flex-sm-row">
+            <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
+              href="#about">
+              <span class="btn-caption">My Works</span>
+              <i class="ph-bold ph-squares-four"></i>
+            </a>
+            <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline" href="#0">
+             
+              
+            </a>
+          </div>
+        </div>
+        <!-- Headline End -->
+
+        <!-- Scroll Button Start -->
+        <div class="rotating-btn">
+          <a href="#portfolio" class="rotating-btn__link slide-down">
+            <!-- SVG rotating text -->
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+              y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve"
+              class="animate-rotation" data-value="360">
+              <defs>
+                <path id="textPath"
+                  d="M110,59.5c0,27.6-22.4,50-50,50s-50-22.4-50-50s22.4-50,50-50S110,31.9,110,59.5z" />
+              </defs>
+              <g>
+                <use xlink:href="#textPath" fill="none"></use>
+                <text>
+                  <!-- button text here!!! -->
+                  <textPath xlink:href="#textPath">Scroll for More * Scroll for More * </textPath>
+                </text>
+              </g>
+            </svg>
+            <!-- arrow icon -->
+            <i class="ph-bold ph-arrow-down"></i>
+          </a>
+        </div>
+        <!-- Scroll Button End -->
+
+      </section>
+      <!-- Intro Section End -->
+
+      <!-- About Section Start -->
+      <section id="about" class="inner about">
+        <!-- Content Block - H2 Section Title Start -->
+        <div class="content__block section-grid-title">
+          <p class="h2__subtitle animate-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+              fill="currentColor">
+              <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+            </svg>
+            <span>About Me</span>
+          </p>
+          <h2 class="h2__title animate-in-up">Turning complex problems into simple design</h2>
+        </div>
+        <!-- Content Block - H2 Section Title End -->
+        <!-- Content Block - Achievements Start -->
+        <div class="content__block grid-block">
+          <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
+            <!-- achievements single item -->
+            <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+              <div class="achievements__card">
+                <p class="achievements__number">10+</p>
+                <p class="achievements__descr">Happy clients</p>
+              </div>
+            </div>
+            <!-- achievements single item -->
+            <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+              <div class="achievements__card">
+                <p class="achievements__number">1+</p>
+                <p class="achievements__descr">Years of experience</p>
+              </div>
+            </div>
+            <!-- achievements single item -->
+            <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+              <div class="achievements__card">
+                <p class="achievements__number">10+</p>
+                <p class="achievements__descr">Projects done</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Content Block - Achievements End -->
+        <!-- Content Block - About Me Data Start -->
+        <div class="content__block grid-block block-large">
+          <div class="container-fluid p-0">
+            <div class="row g-0 justify-content-between">
+              <!-- About Me Description Start -->
+              <div class="col-12 col-xl-8 grid-item about-descr">
+                <p class="about-descr__text animate-in-up">
+                  A results-driven B.Tech undergraduate specializing in Artificial Intelligence and Machine Learning (AIML), with 8 months of hands-on experience as an AIML Engineer Intern. Proficient in full-stack development with a strong command of Python, and a proven ability to build dynamic, scalable web applications by effectively integrating frontend creativity with backend logic.
+                </p>
+                <p class="about-descr__text animate-in-up"><b>Technical Proficiencies</b></p>
+                <ul class="about-descr__text animate-in-up">
+                  <li><b>Languages & Frameworks:</b> Python, React, Node.js, Flask</li>
+                  <li><b>Databases:</b> MySQL</li>
+                  <li><b>Styling & UI:</b> Tailwind CSS</li>
+                  <li><b>Development Skills:</b> API Design, Database Management, Responsive UI Design</li>
+                </ul>
+                <p class="about-descr__text animate-in-up"><b>Professional Attributes</b></p>
+                <ul class="about-descr__text animate-in-up">
+                  <li>Strong communication and collaboration abilities</li>
+                  <li>Analytical thinker with a focus on problem-solving</li>
+                  <li>Committed to writing clean, efficient code and embracing continuous learning</li>
+                  <li>Eager to contribute to innovative projects, work in collaborative environments, and build impactful technology solutions.</li>
+                </ul>
+                <div class="btn-group about-descr__btnholder animate-in-up">
+                  <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile" href="https://drive.google.com/uc?export=download&id=13JhesS5n4HiW_6WDBGzMFFginL7VfDG6" target="_blank">
+                    <span class="btn-caption">Download CV</span>
+                    <i class="ph-bold ph-download-simple"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- About Me Description End -->
+
+              <!-- About Me Information Start -->
+              <div class="col-12 col-xl-4 grid-item about-info">
+                <div class="about-info__item animate-in-up">
+                  <h6>
+                    <small class="top">Name</small>
+                    Navya Pachigolla
+                  </h6>
+                </div>
+                <div class="about-info__item animate-in-up">
+                  <h6>
+                    <small class="top">Phone</small>
+                    <a class="text-link-bold" href="tel:+12127089400">+91 9849327843</a>
+                  </h6>
+                </div>
+                <div class="about-info__item animate-in-up">
+                  <h6>
+                    <small class="top">Email</small>
+                    <a class="text-link-bold"
+                      href="mailto:example@example.com?subject=Message%20from%20your%20site">navyadhritii@gmail.com</a>
+                  </h6>
+                </div>
+                <div class="about-info__item animate-in-up">
+                  <h6>
+                    <small class="top">Location</small>
+                    <a class="text-link-bold" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6"
+                      target="_blank">Hyderabad,
+                      India</a>
+                  </h6>
+                </div>
+              </div>
+              <!-- About Me Information End -->
+
+            </div>
+          </div>
+        </div>
+        <!-- Content Block - About Me Data End -->
+
+        <!-- Content Block - Services Start -->
+        <div class="content__block grid-block">
+          <div class="container-fluid p-0">
+            <div class="row g-0 align-items-stretch cards">
+              <!-- Project 1: AI Warehouse Assistant -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">AI Warehouse Assistant</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">AI</span>
+                      <span class="rounded-tag tag-outline">Automation</span>
+                      <span class="rounded-tag tag-outline">Python</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">An intelligent assistant for warehouse management, leveraging AI to optimize inventory tracking, automate stock updates, and provide actionable insights for efficient operations.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D12AQFi7KudMH5V3A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1707686195211?e=2147483647&v=beta&t=Rui2NefGQ5CynZjNoHjK5fxycCf8h4D8ZnJKdTMUwTI" alt="AI Warehouse Assistant">
+                  </div>
+                </div>
+              </div>
+              <!-- Project 2: AI Documentation Tool -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">AI Documentation Tool</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">AI</span>
+                      <span class="rounded-tag tag-outline">NLP</span>
+                      <span class="rounded-tag tag-outline">Automation</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">A smart tool that uses AI to generate, organize, and maintain technical documentation automatically, improving accuracy and saving time for development teams.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwk7fo241pnq7c4mnfvjh.png" alt="AI Documentation Tool">
+                  </div>
+                </div>
+              </div>
+              <!-- Project 3: Notifo -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">Notifo</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">Productivity</span>
+                      <span class="rounded-tag tag-outline">Security</span>
+                      <span class="rounded-tag tag-outline">Note-taking</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">A note-taking application designed for productivity and personal organization. Features include a user-friendly interface, file locking, and offline access for enhanced privacy and security.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://www.directive.com/images/easyblog_shared/May_2022/05-06-22/b2ap3_large_digital_notes_335845602_400.jpg" alt="Notifo">
+                  </div>
+                </div>
+              </div>
+              <!-- Project 4: Library Management System -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">Library Management System</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">Python</span>
+                      <span class="rounded-tag tag-outline">Django</span>
+                      <span class="rounded-tag tag-outline">HTML/CSS</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">A comprehensive system for students and administrators, featuring simplified book search, secure logins, and user-friendly interfaces for efficient library management.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://www.elibrarysoftware.com/img/book-entry.png" alt="Library Management System">
+                  </div>
+                </div>
+              </div>
+              <!-- Project 5: ProspectCraf -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">ProspectCraf</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">Flask</span>
+                      <span class="rounded-tag tag-outline">Prediction</span>
+                      <span class="rounded-tag tag-outline">Placement</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">A platform that predicts student placements based on academic and experience data, using random forest algorithms and a Flask backend for accurate online predictions.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="ProspectCraf">
+                  </div>
+                </div>
+              </div>
+              <!-- Project 6: Mental Health Conversational AI -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">Mental Health Conversational AI</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">AI</span>
+                      <span class="rounded-tag tag-outline">Chatbot</span>
+                      <span class="rounded-tag tag-outline">NLP</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">A chatbot providing a supportive space for users to express emotions, using GPT-2, Vader Sentiment, and Tkinter to enhance engagement and emotional understanding.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://www.verloop.io/wp-content/uploads/Making-Mental-Health-Care-Accessible_-The-Role-of-Conversational-AI-Solutions-in-a-New-Era.png" alt="Mental Health Conversational AI">
+                  </div>
+                </div>
+              </div>
+              <!-- Project 7: Rasoi Reveal -->
+              <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                <div class="cards__card d-flex flex-column">
+                  <div class="cards__descr">
+                    <h4 class="cards__title animate-in-up">Rasoi Reveal</h4>
+                    <div class="cards__tags d-flex flex-wrap animate-in-up">
+                      <span class="rounded-tag tag-outline">NLP</span>
+                      <span class="rounded-tag tag-outline">Python</span>
+                      <span class="rounded-tag tag-outline">Recipe Analysis</span>
+                    </div>
+                    <p class="small cards__text animate-in-up">An AI system to extract ingredients and quantities from recipes, streamlining ingredient extraction and enabling seamless integration into meal planning tools.</p>
+                  </div>
+                  <div class="cards__image d-flex animate-in-up">
+                    <img src="https://github.com/p-navya/RasoiReveal/blob/main/Background.jpeg?raw=true" alt="Rasoi Reveal">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Content Block - Services End -->
+
+      </section>
+      <!-- About Section End -->
+
+      <!-- Resume Section Start -->
+      <section id="resume" class="inner resume">
+
+        <!-- Content Block - H2 Section Title Start -->
+        <div class="content__block block-large">
+          <p class="h2__subtitle animate-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+              fill="currentColor">
+              <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+            </svg>
+            <span>Resume</span>
+          </p>
+          <h2 class="h2__title animate-in-up">Education and professional experience</h2>
+          <p class="h2__text animate-in-up">
+            A results-driven B.Tech undergraduate specializing in Artificial Intelligence and Machine Learning (AIML), with 8 months of professional experience as an AIML Engineer Intern. Possesses a strong foundation in full-stack development and Python-based technologies, with hands-on experience in developing scalable web applications, managing databases, and designing responsive user interfaces. Demonstrates proficiency in machine learning concepts, data preprocessing, and model deployment. Known for strong problem-solving skills, a collaborative mindset, and a commitment to continuous learning and innovation in technology.
+          </p>
+        </div>
+        <!-- Content Block - H2 Section Title End -->
+
+        <!-- Content Block - Education Start -->
+        <div class="content__block block-large">
+
+          <!-- H3 Block Start -->
+          <div class="section-h3">
+            <h3 class="h3__title animate-in-up">My education</h3>
+          </div>
+          <!-- H3 Block End -->
+
+          <!-- Education Lines Start -->
+          <div class="container-fluid p-0 resume-lines">
+            <!-- education single item -->
+            <div class="row g-0 resume-lines__item animate-in-up">
+              <div class="col-12 col-md-2">
+                <span class="resume-lines__date animate-in-up">2022 - 2026</span>
+              </div>
+              <div class="col-12 col-md-5">
+                <h5 class="resume-lines__title animate-in-up">B.Tech</h5>
+                <p class="resume-lines__source animate-in-up">MallaReddy University, Hyderabad
+                </p>
+              </div>
+              <div class="col-12 col-md-5">
+                <p class="small resume-lines__descr animate-in-up">Pursuing B.Tech specialized in Artificial Intelligence  & Machine Learning </p>
+              </div>
+            </div>
+          </div>
+          <!-- Education Lines End -->
+
+        </div>
+        <!-- Content Block - Education End -->
+
+        <!-- Content Block - Experience Start -->
+        <div class="content__block block-large">
+
+          <!-- H3 Block Start -->
+          <div class="section-h3">
+            <h3 class="h3__title animate-in-up">Work experience</h3>
+          </div>
+          <!-- H3 Block End -->
+
+          <!-- Experience Lines Start -->
+          <div class="container-fluid p-0 resume-lines">
+            <!-- experience single item -->
+            <div class="row g-0 resume-lines__item animate-in-up">
+              <div class="col-12 col-md-2">
+                <span class="resume-lines__date animate-in-up">Oct 2024 - June 2025</span>
+              </div>
+              <div class="col-12 col-md-5">
+                <h5 class="resume-lines__title animate-in-up">Intern</h5>
+                <p class="resume-lines__source animate-in-up">
+                  <a href="#0" class="text-link-bold" target="_blank">Arithcus Global</a>
+                </p>
+                <span class="resume-lines__location animate-in-up"><i class="ph-bold ph-map-pin"></i> Hyderabad, India</span>
+              </div>
+              <div class="col-12 col-md-5">
+                <p class="small resume-lines__descr animate-in-up">
+                  Company specializing in software development, warehouse automation, and IT consulting, with a focus on driving business growth through innovative solutions.
+                </p>
+                <ul class="small animate-in-up experience-list" style="margin-left: 1.2em; list-style-type: disc;">
+                  <li>Developed and deployed AI-powered tools for predictive analytics and automation.</li>
+                  <li>Built scalable web apps using Flask, React.js, Tailwind CSS, and MySQL.</li>
+                  <li>Led the WARE.JARVIS™ project: voice, multilingual, and smart inventory features.</li>
+                  <li>Created an AI Documentation Tool with NLP-based summarization and search.</li>
+                  <li>Applied ML models for product classification and business insights.</li>
+                  <li>Collaborated in agile teams to deliver high-quality, well-documented code.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Experience Lines End -->
+
+        </div>
+        <!-- Content Block - Experience End -->
+
+        <!-- Content Block - H3 Block Start -->
+        <div class="content__block">
+          <div class="section-h3 section-h3-grid">
+            <h3 class="h3__title animate-in-up">Skills</h3>
+          </div>
+        </div>
+        <!-- Content Block - H3 Block End -->
+
+        <!-- Content Block - Tools List Start -->
+        <div class="content__block grid-block block-large">
+          <!-- Tools List Start -->
+          <div class="tools-cards d-flex justify-content-start flex-wrap">
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">HTML</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">CSS/Tailwind CSS</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">JavaScript</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">Python</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">React.js</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">Node.js</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">Flask</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">AI</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">NLP</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">ML</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">DL</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">Figma</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">Vercel</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">AWS</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">Salesforce</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">MySQL/SQLite</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">MongoDB</h6></div></div>
+            <div class="tools-cards__item d-flex grid-item-s animate-card-5"><div class="tools-cards__card"><h6 class="tools-cards__caption animate-in-up">Git</h6></div></div>
+          </div>
+          <!-- Tools List End -->
+        </div>
+        <!-- Content Block - Tools List End -->
+
+        <!-- Content Block - H2 Block Start -->
+        <div class="content__block section-title">
+          <p class="h2__subtitle animate-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+              fill="currentColor">
+              <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+            </svg>
+            <span>Certifications & Achievements</span>
+          </p>
+    
+        </div>
+        <!-- Content Block - H2 Block End -->
+
+        <!-- Content Block - Certifications & Achievements Start -->
+        <div class="content__block block-large">
+          <div class="section-h3 section-h3-grid">
+            <h3 class="h3__title animate-in-up">Certifications & Achievements</h3>
+          </div>
+          <div class="certifications-box animate-in-up">
+            <ul class="certifications-list-box">
+              <li><span class="cert-icon">🏆</span><b>AWS Certified Cloud Practitioner</b> – Amazon Web Services</li>
+              <li><span class="cert-icon">🏆</span><b>Salesforce Certified Administrator</b> – Salesforce</li>
+              <li><span class="cert-icon">🏆</span><b>Winner, University Hackathon 2023</b> – 1st Place, AI/ML Track</li>
+              <li><span class="cert-icon">🏆</span><b>Coursera: Deep Learning Specialization</b> – Andrew Ng</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Content Block - Certifications & Achievements End -->
+
+      </section>
+      <!-- Resume Section End -->
+
+      <!-- Contact Section Start -->
+      <section id="contact" class="inner contact">
+
+        <!-- Content Block - H2 Section Title Start -->
+        <div class="content__block section-title">
+          <p class="h2__subtitle  animate-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+              fill="currentColor">
+              <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+            </svg>
+            <span>Contact</span>
+          </p>
+          <h2 class="h2__title  animate-in-up">Let's make something awesome together!</h2>
+        </div>
+        <!-- Content Block - H2 Section Title End -->
+
+        <!-- Content Block - Contact Form Start -->
+        <div class="content__block grid-block block-grid-large">
+          <div class="form-container">
+
+            <!-- Reply Messages Start -->
+            <div class="form__reply centered text-center">
+              <i class="ph-bold ph-smiley reply__icon"></i>
+              <p class="reply__title">Done!</p>
+              <span class="reply__text">Thanks for your message. I'll get back as soon as possible.</span>
+            </div>
+            <!-- Reply Messages End -->
+
+            <!-- Contact Form Start -->
+            <form class="form contact-form" id="contact-form">
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Starter Template">
+              <input type="hidden" name="admin_email" value="support@mixdesign.club">
+              <input type="hidden" name="form_subject" value="Contact Form Message">
+              <!-- END Hidden Required Fields-->
+              <div class="container-fluid p-0">
+                <div class="row gx-0">
+                  <div class="col-12 col-md-6 form__item animate-in-up">
+                    <input type="text" name="Name" placeholder="Your Name*" required>
+                  </div>
+                  <div class="col-12 col-md-6 form__item animate-in-up">
+                    <input type="text" name="Company" placeholder="Company Name">
+                  </div>
+                  <div class="col-12 col-md-6 form__item animate-in-up">
+                    <input type="email" name="user_email" placeholder="Email Address*" required>
+                  </div>
+                  <div class="col-12 col-md-6 form__item animate-in-up">
+                    <input type="tel" name="Phone" placeholder="Phone Number*" required>
+                  </div>
+                  <div class="col-12 form__item animate-in-up">
+                    <textarea name="Message" placeholder="A Few Words*" required></textarea>
+                  </div>
+                  <div class="col-12 form__item animate-in-up">
+                    <button class="btn btn-default btn-hover btn-hover-accent" type="submit">
+                      <span class="btn-caption">Send Message</span>
+                      <i class="ph-bold ph-paper-plane-tilt"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <!-- Contact Form End -->
+
+          </div>
+        </div>
+        <!-- Content Block - Contact Form End -->
+
+        <!-- Content Block - Socials Cards Start -->
+        <div class="content__block grid-block">
+          <div class="socials-cards d-flex justify-content-start flex-wrap">
+            <!-- socials item: GitHub -->
+            <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+              <div class="socials-cards__card">
+                <i class="ph-bold ph-github-logo"></i>
+                <a class="socials-cards__link" href="https://github.com/p-navya/portfolio.git" target="_blank"></a>
+              </div>
+            </div>
+            <!-- socials item: LinkedIn -->
+            <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+              <div class="socials-cards__card">
+                <i class="ph-bold ph-linkedin-logo"></i>
+                <a class="socials-cards__link" href="https://www.linkedin.com/in/p-navyaa/" target="_blank"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Content Block - Socials Cards End -->
+
+        <!-- Content Block - Teaser Start -->
+        <div class="content__block">
+          <div class="teaser">
+            <p class="teaser__text animate-in-up">Want to know more about me, tell me
+              about your project or just to say hello?
+              <a class="text-link-bold" href="mailto:example@example.com?subject=Message%20from%20your%20site">Drop me a
+                line</a>
+              and I'll get back
+              as soon as possible.
+            </p>
+          </div>
+        </div>
+        <!-- Content Block - Teaser End -->
+
+        <!-- Content Block - Contact Data Start -->
+        <div class="content__block">
+          <div class="container-fluid p-0 contact-lines animate-in-up">
+            <div class="row g-0 contact-lines__item">
+              <!-- data item -->
+              <div class="col-12 col-md-4 contact-lines__data">
+                <p class="contact-lines__title animate-in-up">Location</p>
+                <p class="contact-lines__text animate-in-up">
+                  <a class="text-link-bold" href="https://maps.app.goo.gl/xMJXTEUeHkv6kYRQ6" target="_blank">Hyderabad,
+                    India</a>
+                </p>
+              </div>
+              <!-- data item -->
+              <div class="col-12 col-md-4 contact-lines__data">
+                <p class="contact-lines__title animate-in-up">Phone</p>
+                <p class="contact-lines__text animate-in-up">
+                  <a class="text-link-bold" href="tel:+12127089400">+91 9849327843</a>
+                </p>
+              </div>
+              <!-- data item -->
+              <div class="col-12 col-md-4 contact-lines__data">
+                <p class="contact-lines__title animate-in-up">Email</p>
+                <p class="contact-lines__text animate-in-up">
+                  <a class="text-link-bold"
+                    href="mailto:example@example.com?subject=Message%20from%20your%20site">navyadhritii@gmail.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Content Block - Contact Data End -->
+
+      </section>
+      <!-- Contact Section End -->
+
+    </div>
+  </div>
+  <!-- Page Content End -->
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+      It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close link-s" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share link-s" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs link-s" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader-active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left link-s" title="Previous (arrow left)"></button>
+
+        <button class="pswp__button pswp__button--arrow--right link-s" title="Next (arrow right)"></button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Load Scripts Start -->
+  <script src="js/libs.min.js"></script>
+  <script>
+    // Removed blur/gradient animation for minimal look
+  </script>
+  <script src="js/app.js"></script>
+  <script src="js/gallery-init.js"></script>
+  <!-- Add EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init('MWIpHFamZmk9whLNi');
+    })();
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        emailjs.sendForm('service_ea5m5cr', 'template_8ehjywp', this)
+          .then(function() {
+            document.querySelector('.contact .form').classList.add('is-hidden');
+            document.querySelector('.contact .form__reply').classList.add('is-visible');
+            setTimeout(function() {
+              document.querySelector('.contact .form__reply').classList.remove('is-visible');
+              document.querySelector('.contact .form').classList.remove('is-hidden');
+              document.getElementById('contact-form').reset();
+            }, 5000);
+          }, function(error) {
+            alert('Failed to send message. Please try again later.');
+          });
+      });
+    });
+  </script>
+  <!-- Load Scripts End -->
+
+</body>
+</html>
